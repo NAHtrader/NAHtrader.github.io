@@ -1,11 +1,11 @@
 ---
-title: "Factor"
+title: "Valuation"
 layout: archive
-permalink: tags/factor
+permalink: categories/Valuation
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.tags.Factor %}
+{% assign posts = site.categories.Valuation %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

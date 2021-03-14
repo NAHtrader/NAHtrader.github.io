@@ -1,11 +1,11 @@
 ---
-title: "Filter"
+title: "Factor"
 layout: archive
-permalink: tags/filter
+permalink: categories/factor
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.tags.Filter %}
+{% assign posts = site.categories.Factor %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
