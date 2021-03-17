@@ -26,9 +26,10 @@
     </h2>
     
     {% if post.date %}
-      <p class="page__meta"></p><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y %B %d" }}</p>
+      <span class="page__meta"></p><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y %B %d" }}</span>
     {% endif %}   
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    <br>
+    {% if post.excerpt %}<span class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</span>{% endif %}
     {% include page__meta.html type=include.type %}
   </article>
 </div>
