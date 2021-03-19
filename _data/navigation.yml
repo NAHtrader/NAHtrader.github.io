@@ -2,12 +2,10 @@
 main:
     - title: "Tag Archive"
       url: /tags/
-<<<<<<< HEAD
 
     - title: "Category"
       url: /categories/
-=======
->>>>>>> fa1fd382511b3163c3728e04e41890235bde566a
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
 
