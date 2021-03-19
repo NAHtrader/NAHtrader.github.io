@@ -1,11 +1,11 @@
 ---
 title: "Factor"
 layout: archive
-permalink: categories/factor
+permalink: tags/factor
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Factor %}
+{% assign posts = site.tags.Factor %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
